@@ -7,7 +7,11 @@ public class Cachorro {
 
     Pet dog= new Pet();
     dog.setNome("kymmy");
-    System.out.print(dog.getNome());
-    System.out.print(dog.latido());
+    System.out.println(dog.getNome());
+    System.out.println(Pet.latido());
+    dog.setBrinca(true);
+    System.out.println(dog.brincar());
+    System.out.println(Pet.movimento());
+    
 }
 }
